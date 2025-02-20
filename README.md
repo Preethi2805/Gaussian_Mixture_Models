@@ -1,19 +1,7 @@
 # Gaussian Mixture Models
 
 ## Objective
-This repository contains an implementation of **Exercise 4** from the *Pattern Recognition and Machine Learning* textbook. The goal of the exercise is to visualize the behaviour of a **3-component, 2D Gaussian Mixture Model (GMM)** using the following parameters for each Gaussian component:
-
-- **Component 1**: 
-  - Mean: \(\mu_1 = (0.5, 0.5)\)
-  - Covariance: \(\Sigma_1 = \begin{bmatrix} 0.02 & -0.01 \\ -0.01 & 0.02 \end{bmatrix}\)
-  
-- **Component 2**: 
-  - Mean: \(\mu_2 = (0.8, 0.6)\)
-  - Covariance: \(\Sigma_2 = \begin{bmatrix} 0.02 & 0.01 \\ 0.01 & 0.02 \end{bmatrix}\)
-  
-- **Component 3**: 
-  - Mean: \(\mu_3 = (0.1, 0.4)\)
-  - Covariance: \(\Sigma_3 = \begin{bmatrix} 0.02 & 0.01 \\ 0.01 & 0.02 \end{bmatrix}\)
+This repository contains an implementation of **Exercise 4** from the *Pattern Recognition and Machine Learning* textbook. The goal of the exercise is to visualize the behaviour of a **3-component, 2D Gaussian Mixture Model (GMM)** using the specified parameters for each Gaussian component.
 
 The exercise includes generating samples from the GMM, and visualizing them in a 3-panel plot that shows:
 1. **Joint Distribution** of the GMM samples.
